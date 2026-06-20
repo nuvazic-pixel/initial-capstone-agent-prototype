@@ -202,3 +202,12 @@ my_env.tfvars
 
 # A2A Inspector
 tools/a2a-inspector/
+
+# Local environment and runtime files
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.adk/
+app/.adk/
